@@ -1,0 +1,30 @@
+{
+  "name": "WashDesk — Gestion lavage auto",
+  "short_name": "WashDesk",
+  "description": "Le logiciel de gestion tout-en-un pour les professionnels du lavage automobile",
+  "start_url": "https://washdesk.fr/",
+  "scope": "https://washdesk.fr/",
+  "display": "standalone",
+  "background_color": "#13203D",
+  "theme_color": "#13203D",
+  "orientation": "portrait-primary",
+  "lang": "fr",
+  "icons": [
+    {"src": "icons/icon-72.png","sizes": "72x72","type": "image/png","purpose": "any maskable"},
+    {"src": "icons/icon-96.png","sizes": "96x96","type": "image/png","purpose": "any maskable"},
+    {"src": "icons/icon-128.png","sizes": "128x128","type": "image/png","purpose": "any maskable"},
+    {"src": "icons/icon-144.png","sizes": "144x144","type": "image/png","purpose": "any maskable"},
+    {"src": "icons/icon-152.png","sizes": "152x152","type": "image/png","purpose": "any maskable"},
+    {"src": "icons/icon-192.png","sizes": "192x192","type": "image/png","purpose": "any maskable"},
+    {"src": "icons/icon-384.png","sizes": "384x384","type": "image/png","purpose": "any maskable"},
+    {"src": "icons/icon-512.png","sizes": "512x512","type": "image/png","purpose": "any maskable"}
+  ],
+  "screenshots": [
+    {"src": "icons/screenshot.png","sizes": "1280x720","type": "image/png"}
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {"name": "Nouvelle prestation","short_name": "Prestation","url": "https://washdesk.fr/?action=new-presta","icons": [{"src": "icons/icon-96.png","sizes": "96x96"}]},
+    {"name": "Mes clients","short_name": "Clients","url": "https://washdesk.fr/?action=clients","icons": [{"src": "icons/icon-96.png","sizes": "96x96"}]}
+  ]
+}
